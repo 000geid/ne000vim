@@ -1,0 +1,10 @@
+require("user.alpha")
+require("user.bufferline")
+require("user.keymaps")
+require("user.lualine")
+require("user.nvim-tree")
+require("user.options")
+require("user.plugins")
+require("user.telescope")
+
+vim.cmd([[colorscheme catppuccin-macchiato]])
