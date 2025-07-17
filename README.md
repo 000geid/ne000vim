@@ -11,7 +11,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/000geid/nvim-dotfiles/refs/h
 No need to clone, copy, or pray to the config gods. This script will:
 - Install Neovim and git if you somehow don’t have them
 - Symlink this config to `~/.config/nvim` (overwriting any old cruft)
-- Prompt you to open Neovim, where plugins will install themselves
+- Prompt you to open Neovim, where plugins will install themselves using [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## What is this?
 
@@ -32,8 +32,11 @@ cd nvim-dotfiles
 
 ## What’s Inside?
 - Modular Lua config for speed and clarity
-- Auto-bootstrapping plugin manager (packer.nvim)
+- Auto-bootstrapping plugin manager ([lazy.nvim](https://github.com/folke/lazy.nvim))
 - Tasty defaults for coding, navigation, and more
+
+## Plugin Management
+Plugins are now managed with [lazy.nvim](https://github.com/folke/lazy.nvim). Use `:Lazy` in Neovim for plugin commands (install, update, etc).
 
 ## FAQ
 **Q: Will this nuke my old Neovim config?**  
