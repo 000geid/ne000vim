@@ -5,8 +5,8 @@ if ok then
       theme= 'catpuccin-macchiato',
       icons_enabled = true,
       theme = 'auto',
-      component_separators = { left = '\ue0b1', right = '\ue0b3'},
-      section_separators = { left = '\ue0b0', right = '\ue0b2'},
+      component_separators = { left = '', right = ''},
+      section_separators = { left = '', right = ''},
       disabled_filetypes = {
         statusline = {},
         winbar = {},
