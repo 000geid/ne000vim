@@ -38,6 +38,17 @@ cd nvim-dotfiles
 ## Plugin Management
 Plugins are now managed with [lazy.nvim](https://github.com/folke/lazy.nvim). Use `:Lazy` in Neovim for plugin commands (install, update, etc).
 
+## Uninstall (The Clean Break)
+
+Want to wipe the slate clean? Run this from your nvim-dotfiles directory:
+
+```sh
+./uninstall.sh
+```
+
+- This will remove the symlinked `~/.config/nvim` (if it points to this repo).
+- You’ll be asked if you want to nuke all Neovim data (plugins, lazy.nvim, etc). Answer with your heart.
+
 ## FAQ
 **Q: Will this nuke my old Neovim config?**  
 A: Yes, but only in `~/.config/nvim`. Back it up if you’re sentimental.

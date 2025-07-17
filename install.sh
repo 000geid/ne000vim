@@ -55,6 +55,7 @@ Setup complete!
 Now open Neovim with:
   nvim
 
-Packer will automatically install plugins on first launch.
+Plugins will be installed automatically on first launch using lazy.nvim.
+Use :Lazy in Neovim for plugin management commands.
 ========================================
 EOF 
